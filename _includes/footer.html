@@ -2,8 +2,7 @@
   <span>
     &copy; <time>{{ site.time | date: '%Y' }}</time> {{ site.copyright }} <br />
     <a href="https://beian.miit.gov.cn/" target="_blank">{{ site.icp_info }}</a><br />
-    Made with Jekyll using the <a href="https://github.com/hutusi/tale/" target="_blank">TaleType</a> theme, 
-    CDN for images sponsored by <a href="https://www.dogedoge.com/" target="_blank">多吉搜索</a>
+    Made with Jekyll using the <a href="https://github.com/hutusi/tale/" target="_blank">TaleType</a> theme
     <br />
   </span>
 
@@ -29,15 +28,5 @@
       </span>
     </span>
   </div>
-
-  <!-- Baidu Statistic-->
-  {% if site.baidu_statistic %}
-    {% include baidu_statistic.html %}
-  {% endif %}
-
-  <!-- cnzz Statistic-->
-  {% if site.cnzz_statistic %}
-    {% include cnzz_statistic.html %}
-  {% endif %}
 
 </footer>

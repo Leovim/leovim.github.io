@@ -1,37 +1,41 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title: 唱铜 View
+description: "关于计算机技术、投资理财、个人成长 | 唱铜，互联网软件工程师，INFJ，价值投资爱好者，目标是财务自由"
+url: "https://leovim.github.io"
+
+# theme
+remote_theme: chesterhow/tale
+permalink: /:year-:month-:day/:title
+paginate: 10
 
 # Google Analytics
-google_analytics: UA-30399492-1
+google_analytics: G-1437V3F3CT
 
 # Baidu Statistic
-baidu_statistic: 6e5f92006f4eed18f39b7cb30f420d8a
+#baidu_statistic: 6e5f92006f4eed18f39b7cb30f420d8a
 
 # Google AdSense
-google_adsense: xxxxxxxxxx
+google_adsense: ca-pub-2193045272262136
 
 # cnzz statistic
-cnzz_statistic: xxxxxxxx
+#cnzz_statistic: xxxxxxxx
 
-copyright:    'hutusi.com'
+copyright: ""
 # Author
 author:
-  name:         hutusi
-  url:          https://hutusi.com
-  email:        huziyong@gmail.com
+  name: 唱铜
+  url: https://leovim.github.io
+  email: changtong1993@gmail.com
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Gems
 plugins:
@@ -43,16 +47,16 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+permalink: /:year-:month-:day/:title
+paginate: 5
 
 # Navigators
-nav_page_names: ['about.md']
+nav_page_names: ["about.md"]
 # can be ['feeds.pub', 'xml', 'na']
-nav_feed: 'feeds.pub'
+nav_feed: "feeds.pub"
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
 
 # Tagging
 # tag_page_dir:         tag
@@ -63,16 +67,15 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 #   sitemap: false
 
 # can be ['disqus', 'gitalk']
-comments_engine: na
+comments_engine: gitalk
 
 # Disqus (Set to your disqus id)
-disqus: jekyll-tale
+#disqus: jekyll-tale
 
 gitalk:
-  client_id: ''
-  client_secret: ''
-  repo: ''
-  owner: ''
-  admin: 
-    - ''
-  
+  client_id: "12e9e801f496d0860121"
+  client_secret: "5ec95e5a3fd4041edbc365c4e19004f636e12994"
+  repo: "leovim.github.io"
+  owner: "leovim"
+  admin:
+    - "leovim"
